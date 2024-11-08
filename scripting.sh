@@ -38,3 +38,14 @@ case $choice in
         ;;
 esac
 
+echo "Know more or leave?(Y/N)"
+read -r choice
+
+case $choice in
+    Y)
+      echo "Please visit this website for more information: https://www.edu.gov.mb.ca/"
+      ;;
+    N)
+      echo "Bye, have a great day!"
+      ;;
+esac
